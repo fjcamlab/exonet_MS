@@ -1,0 +1,47 @@
+#Parent mass tolerance
+PrecursorMassTolerance=25ppm
+
+#Max Number of Modifications per peptide If this value is large, the search will be slow
+NumMods=3
+
+#Modifications (see below for examples)
+StaticMod=C2H3N1O1, C, fix, any, Carbamidomethyl
+DynamicMod=H-2O-1, E, opt, N-term, Glu->pyro-Glu
+DynamicMod=H-3N-1, Q, opt, N-term, Gln->pyro-Glu
+DynamicMod=O1, M, opt, any, Oxidation
+
+#Fragmentation
+FragmentationMethodID=0
+
+#Instrument ID
+InstrumentID=2
+
+#Enzyme ID
+EnzymeID=1
+
+#Isotope error range
+IsotopeErrorRange=-1,2
+
+#Number of tolerable termini
+NTT=2
+
+#Target/Decoy search mode
+TDA=1
+
+#Number of Threads (by default, uses all available cores)
+NumThreads=10
+
+#Minimum peptide length to consider
+MinPepLength=6
+
+#Maximum peptide length to consider
+MaxPepLength=50
+
+#Minimum precursor charge to consider (if not specified in the spectrum)
+MinCharge=2
+
+#Maximum precursor charge to consider (if not specified in the spectrum)
+MaxCharge=5
+
+#Number of matches per spectrum to be reported
+NumMatchesPerSpec=1
