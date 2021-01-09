@@ -4,7 +4,7 @@ Alignment and statistical analysis of LC/ESI-MS/MS data from human PDAC subpopul
 
 ## Project description
 
-Characterization of the protein composition of exosomes and cells of five subpopulations (CD24-CD44+, CD24+CD44+, EpCAM+, CD133+, negative for all markers) from four human PDAC cell lines (BxPC-3, PANC-1, T3M4, and MIA PaCa-2), via liquid chromatography electrospray ionization tandem mass spectrometry (LC/ESI–MS/MS). 
+Characterization of the protein composition of exosomes and cells of five distinct subpopulations from four human PDAC cell lines (BxPC-3, PANC-1, T3M4, and MIA PaCa-2), via liquid chromatography electrospray ionization tandem mass spectrometry (LC/ESI–MS/MS). 
 
 Independent Data Acquisition (IDA) using Analyst TF 1.7 software from a Triple TOF 5600 System (SCIEX, USA). The data were processed using PeakView® 2.2 Software (SCIEX, Foster City, CA), and MS-GF+ software (https://github.com/MSGFPlus/msgfplus) as a search engine.
 
