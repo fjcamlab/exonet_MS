@@ -14,6 +14,6 @@ Data are publicly available at PRIDE (Proteomics IDEntifications Database, ebi.a
 
 ## Citation
 
-"Exosomes from Pancreatic Cancer Stem Cells Coordinate an Intratumor Communication Network (ExoNet) and Support Disease Progression". Carolina F. Ruivo and Nuno Bastos et al., Cancer Discovery (2021) *STATUS: Submitted*
+Carolina F. Ruivo and Nuno Bastos et al. **Exosomes from Pancreatic Cancer Stem Cells Coordinate an Intratumor Communication Network (ExoNet) and Support Disease Progression.** Cancer Discovery (2021) *STATUS: Submitted*
 
 
