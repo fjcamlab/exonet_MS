@@ -10,7 +10,7 @@ Independent Data Acquisition (IDA) using Analyst TF 1.7 software from a Triple T
 
 ## Data availability
 
-Data are publicly available at PRIDE (Proteomics IDEntifications Database, ebi.ac.uk/pride/archive/projects/PXD??????) repository, under the Accession Number PDX??????.
+The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifier PXD023529 and 10.6019/PXD023529. 
 
 ## Citation
 
