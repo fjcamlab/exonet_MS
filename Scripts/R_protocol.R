@@ -94,17 +94,16 @@ names <- c(sample_info[,"File"])[[1]][outl]
 conv <- c(sample_info[,"Cell_line"])[[1]][outl]
 files <- paste0(path_data, names, ".mzid")
 
-## 2.1 -- Reading files separately: to define protein lists
+## 2.1 -- Reading in a single object: for quantitation and differential analysis
+msnid <- MSnID(".") # provide working directory
+msnid_m <- read_mzIDs(msnid, files, backend = "mzR")
+
+## 2.2 -- Reading files separately: to define protein lists
 msnid_l <- lapply(files, function(x) {
   print(x)
   read_mzIDs(msnid, x)
 })
 names(msnid_l) <- names
-
-## 2.2 -- Reading in a single object: for quantitation and differential analysis
-msnid <- MSnID(".") # provide working directory
-msnid_m <- read_mzIDs(msnid, files, backend = "mzR")
-
 
 
 
