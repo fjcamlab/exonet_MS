@@ -6,7 +6,7 @@ Alignment and statistical analysis of LC/ESI-MS/MS data from human PDAC subpopul
 
 Characterization of the protein composition of exosomes and cells of five distinct subpopulations from four human PDAC cell lines (BxPC-3, PANC-1, T3M4, and MIA PaCa-2), via liquid chromatography electrospray ionization tandem mass spectrometry (LC/ESI–MS/MS). 
 
-Independent Data Acquisition (IDA) using Analyst TF 1.7 software from a Triple TOF 5600 System (SCIEX, USA). The data were processed using PeakView® 2.2 Software (SCIEX, Foster City, CA), and MS-GF+ software (https://github.com/MSGFPlus/msgfplus) as a search engine.
+Independent Data Acquisition (IDA) using Analyst TF 1.7 software from a Triple TOF 5600 System (SCIEX, USA). The data were processed using PeakView® 2.2 Software (SCIEX, Foster City, CA), and [MS-GF+ software](https://github.com/MSGFPlus/msgfplus) as a search engine.
 
 ## Data availability
 
@@ -14,7 +14,7 @@ The mass spectrometry proteomics data have been deposited to the ProteomeXchange
 
 ## Data analysis
 
-Acquired data were aligned using MSGF+ software against human reference proteome (UP000005640_9606.fasta) obtained from [EMBL-EBI repository](https://www.ebi.ac.uk/reference_proteomes/), as described in [msgfplus_alignment.sh](Scripts/msgfplus_alignment.sh) script. QC check, filtering, and final sets were obtained as described at [data_analysis.R](Scripts/data_analysis.R). Here two main sets were generated derived from same alignment strategy:
+Acquired data were aligned using MSGF+ against human reference proteome (UP000005640_9606.fasta) obtained from [EMBL-EBI repository](https://www.ebi.ac.uk/reference_proteomes/), as described in [msgfplus_alignment.sh](Scripts/msgfplus_alignment.sh) script. QC check, filtering, and final sets were obtained as described at [data_analysis.R](Scripts/data_analysis.R). Here two main sets were generated derived from same alignment strategy:
 
 - Co-ocurrency matrix, indicating which proteins have been indepedently detected in each sample.
 
