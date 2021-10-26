@@ -246,7 +246,7 @@ msnset_prot <- combineFeatures(msnset,
                                cv=FALSE)
 
 k <- data.frame(sample_info[match(sampleNames(msnset_prot), sample_info$File),])
-k$contrast <- factor(ifelse(k$Subpopulation %in% c("CD133+", "CD24+CD44+"), "B", "A"))
+k$contrast <- factor(ifelse(k$Subpopulation %in% c("CD133+", "CD24+CD44+"), "CSC", "NSCC"))
 rownames(k) <- sampleNames(msnset_prot)
 
 pData(msnset_prot) <- k
@@ -274,7 +274,7 @@ dds_exo <- DESeqDataSetFromMatrix(countData = e[rowSums(e[,exo]) > 0, exo],
 dds_exo <- DESeq(dds_exo, fitType='local')
 
 ## Fraction 
-res_dds <- DESeq2::results(dds_exo, contrast = c("contrast", "B", "A"))
+res_dds <- DESeq2::results(dds_exo, contrast = c("contrast", "CSC", "NSCC"))
 res_dds <- data.frame(data.frame(ID = rownames(res_dds), res_dds), 
                       protein_info[match(sub(".*\\|", "", rownames(res_dds)), 
                                          protein_info$UNIPROT_ID),])
