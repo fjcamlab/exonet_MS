@@ -14,7 +14,7 @@ The mass spectrometry proteomics data have been deposited to the ProteomeXchange
 
 ## Data analysis
 
-Acquired data were aligned using MSGF+ software, as described in 'scripts/msgfplus_alignment.sh' script. QC check, filtering, and final sets were obtained as described at 'scripts/data_analysis.R'. Here two main sets were generated derived from same alignment strategy:
+Acquired data were aligned using MSGF+ software, as described in [scripts/msgfplus_alignment.sh](scripts/msgfplus_alignment.sh) script. QC check, filtering, and final sets were obtained as described at [scripts/data_analysis.R](scripts/data_analysis.R). Here two main sets were generated derived from same alignment strategy:
 
 - Co-ocurrency matrix, indicating which proteins have been indepedently detected in each sample.
 
