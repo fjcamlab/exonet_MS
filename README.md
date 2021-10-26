@@ -12,6 +12,14 @@ Independent Data Acquisition (IDA) using Analyst TF 1.7 software from a Triple T
 
 The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifier PXD023529 and 10.6019/PXD023529. 
 
+## Data analysis
+
+Acquired data were aligned using MSGF+ software, as described in 'scripts/msgfplus_alignment.sh' script. QC check, filtering, and final sets were obtained as described at 'scripts/R_protocol.R'. Here two main sets were generated derived from same alignment strategy:
+
+- Co-ocurrency matrix, indicating which proteins have been indepedently detected in each sample.
+
+- Quantitative matrix, peptide quantitation of proteins found in all the set of samples.
+
 ## Citation
 
 Carolina F. Ruivo and Nuno Bastos et al. **Exosomes from Pancreatic Cancer Stem Cells Coordinate an Intratumor Communication Network (ExoNet) and Support Disease Progression.** Gut (2021) *STATUS: In revision*
