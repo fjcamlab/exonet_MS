@@ -98,7 +98,7 @@ files <- paste0(path_data, names, ".mzid")
 msnid <- MSnID(".") # provide working directory
 msnid_m <- read_mzIDs(msnid, files, backend = "mzR")
 
-## 2.2 -- Reading files separately: to define protein lists
+## 2.2 -- Reading files separately: to define protein lists per sample & group
 msnid_l <- lapply(files, function(x) {
   print(x)
   read_mzIDs(msnid, x)
