@@ -24,10 +24,6 @@ library(RColorBrewer)
 library(Rtsne)
 library(DESeq2)
 library(openxlsx)
-library(AnnotationDbi)
-library(clusterProfiler)
-library(ReactomePA)
-library(viridis)
 
 
 
