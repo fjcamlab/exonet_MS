@@ -22,6 +22,6 @@ Acquired data were aligned using MSGF+ against human reference proteome (UP00000
 
 ## Citation
 
-Carolina F. Ruivo and Nuno Bastos et al. **Exosomes from Pancreatic Cancer Stem Cells Coordinate an Intratumor Communication Network (ExoNet) and Support Disease Progression.** Gut (2021) *STATUS: In revision*
+Ruivo CF, Bastos N, Adem B, et al Extracellular Vesicles from Pancreatic Cancer Stem Cells Lead an Intratumor Communication Network (EVNet) to fuel tumour progression Gut Published Online First: 10 January 2022. doi: 10.1136/gutjnl-2021-324994
 
 
